@@ -13,6 +13,8 @@ public class Pedal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 farePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,10f));
+        transform.position = new Vector3(farePos.x,transform.position.y,transform.position.z);
         
     }
 }
