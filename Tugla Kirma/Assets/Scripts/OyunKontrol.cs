@@ -18,6 +18,6 @@ public class OyunKontrol : MonoBehaviour
     }
     public void BirSonrakiSahne()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

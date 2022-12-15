@@ -18,7 +18,7 @@ public class Top : MonoBehaviour
         if (!OyunBasladi) {
             transform.position = new Vector3(pedal.transform.position.x, transform.position.y, transform.position.z);
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0)&& !OyunBasladi)
         {
             OyunBasladi = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(2f,10f);
