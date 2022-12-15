@@ -7,6 +7,8 @@ public class Button : MonoBehaviour
 {
     public void DigerSahne()
     {
-        SceneManager.LoadScene("Oyun");
+        Tugla.toplamTuglaSayisi = 0;
+        GameObject.FindObjectOfType<Puan>().GetComponent<Puan>().PuanSifirla();
+        SceneManager.LoadScene("Bolum1");
     }
 }
