@@ -1669,22 +1669,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4660564319648829582, guid: 429c0d89dea175641bd787ad2fc2b703, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 82dfdda1815e72646b092968f5e4e6e4, type: 3}
-    - target: {fileID: 4660564319648829582, guid: 429c0d89dea175641bd787ad2fc2b703, type: 3}
-      propertyPath: m_Color.b
-      value: 0.81350124
-      objectReference: {fileID: 0}
-    - target: {fileID: 4660564319648829582, guid: 429c0d89dea175641bd787ad2fc2b703, type: 3}
-      propertyPath: m_Color.g
-      value: 0.81350124
-      objectReference: {fileID: 0}
-    - target: {fileID: 4660564319648829582, guid: 429c0d89dea175641bd787ad2fc2b703, type: 3}
-      propertyPath: m_Color.r
-      value: 0.9528302
-      objectReference: {fileID: 0}
     - target: {fileID: 4660564319648829583, guid: 429c0d89dea175641bd787ad2fc2b703, type: 3}
       propertyPath: m_Name
       value: Arkaplan

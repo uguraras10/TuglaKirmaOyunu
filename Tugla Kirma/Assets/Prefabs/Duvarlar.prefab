@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7600077690803217623}
   - component: {fileID: 7600077690803217616}
+  - component: {fileID: 2096312252348084665}
   m_Layer: 0
   m_Name: sol duvar
   m_TagString: Untagged
@@ -58,6 +59,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 6}
   m_EdgeRadius: 0
+--- !u!114 &2096312252348084665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600077690803217617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ab4699249fe37409db80f51d09e0c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sesEfekti: {fileID: 8300000, guid: 633d17792877cdf468ba76b3b71d63a3, type: 3}
 --- !u!1 &7600077691048572659
 GameObject:
   m_ObjectHideFlags: 0
@@ -68,6 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7600077691048572657}
   - component: {fileID: 7600077691048572658}
+  - component: {fileID: 2619792456133800538}
   m_Layer: 0
   m_Name: "\xFCst duvar"
   m_TagString: Untagged
@@ -116,6 +131,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2619792456133800538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600077691048572659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ab4699249fe37409db80f51d09e0c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sesEfekti: {fileID: 8300000, guid: 633d17792877cdf468ba76b3b71d63a3, type: 3}
 --- !u!1 &7600077691652978026
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,6 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7600077692294545299}
   - component: {fileID: 7600077692294545324}
+  - component: {fileID: 5124353021861999174}
   m_Layer: 0
   m_Name: sag duvar
   m_TagString: Untagged
@@ -245,6 +274,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 6}
   m_EdgeRadius: 0
+--- !u!114 &5124353021861999174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600077692294545325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ab4699249fe37409db80f51d09e0c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sesEfekti: {fileID: 8300000, guid: 633d17792877cdf468ba76b3b71d63a3, type: 3}
 --- !u!1 &7600077692600833745
 GameObject:
   m_ObjectHideFlags: 0

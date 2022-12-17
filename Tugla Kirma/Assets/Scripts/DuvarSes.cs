@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pedal : MonoBehaviour
+public class DuvarSes : MonoBehaviour
 {
     public AudioClip sesEfekti;
     // Start is called before the first frame update
@@ -14,11 +14,10 @@ public class Pedal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 farePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,10f));
-        transform.position = new Vector3(Mathf.Clamp(farePos.x,-3f,3f),transform.position.y,transform.position.z);
-
+        
     }
-    void OnCollisionEnter2D(Collision2D diger)
+
+     void OnCollisionEnter2D(Collision2D diger)
     {
         AudioSource.PlayClipAtPoint(sesEfekti, transform.position);
     }
