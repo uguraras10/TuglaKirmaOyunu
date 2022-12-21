@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ab4699249fe37409db80f51d09e0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carpma: {fileID: 4848330589171548859, guid: 5ee88b8f7d7ae2b45a627f185d2ca3c6, type: 3}
   sesEfekti: {fileID: 8300000, guid: 633d17792877cdf468ba76b3b71d63a3, type: 3}
 --- !u!1 &7600077691048572659
 GameObject:
@@ -143,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ab4699249fe37409db80f51d09e0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carpma: {fileID: 4848330589171548859, guid: 5ee88b8f7d7ae2b45a627f185d2ca3c6, type: 3}
   sesEfekti: {fileID: 8300000, guid: 633d17792877cdf468ba76b3b71d63a3, type: 3}
 --- !u!1 &7600077691652978026
 GameObject:
@@ -286,6 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ab4699249fe37409db80f51d09e0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carpma: {fileID: 4848330589171548859, guid: 5ee88b8f7d7ae2b45a627f185d2ca3c6, type: 3}
   sesEfekti: {fileID: 8300000, guid: 633d17792877cdf468ba76b3b71d63a3, type: 3}
 --- !u!1 &7600077692600833745
 GameObject:
